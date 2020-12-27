@@ -1,0 +1,9 @@
+selector/IOSSelector.class
+selector/SelectorFactory.class
+helper/StoreHelper$1.class
+selector/Selector.class
+selector/SelectorType.class
+helper/StoreHelper.class
+selector/AndroidSelector.class
+model/SelectorInfo.class
+model/ElementInfo.class

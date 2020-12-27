@@ -1,23 +1,21 @@
 package StepImpl;
 
-import com.oracle.tools.packager.Log;
+
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
 import driver.BaseMethods;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.TouchAction;
 import io.appium.java_client.ios.IOSDriver;
-import io.appium.java_client.touch.WaitOptions;
+
 import io.appium.java_client.touch.offset.PointOption;
 import org.apache.logging.log4j.LogManager;
 import org.junit.Assert;
 import org.openqa.selenium.Dimension;
-import org.openqa.selenium.WebElement;
 
-import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 
 /**

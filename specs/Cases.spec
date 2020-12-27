@@ -5,11 +5,7 @@ This test spec contains success Login , failure Login and Logout cases
 ## Case 1: Success Login
 Tags: Succes
 * "hello@getir.com" ve "hello" bilgileriyle login olunur.
-
-## Case Extra : raporda fail durumunda screenshot alındığını göstermek için fail alacak senaryo
-* Bu adımda rapora "burada yazılan mesaj raporda gözükür" yaz
-* "fail@getir.com" ve "fail" bilgileriyle login olunur.
-
+gi
 ## Case 1: Failure Login
 Tags: Failure
 * "wrongUsername" ve "xxxx" bilgileriyle başarısız login gerçekleştirilir ve toast mesajı kontrol edilir.
@@ -40,13 +36,3 @@ Case2 sepete ürün ekleme adımları
 
 * Sepetteki ürünlerin adedini "3" yapar. Fiyatlarını hesaplar ve payment kısmına gidip kontrol eder. Payment içindeki kontrolleri yapar. Sepete geri dönüp ürünleri siler
 
-
-## Case Extra :
-* "hello@getir.com" ve "hello" bilgileriyle login olunur.
-* "Yiyecek" kategorisine girilir "foodCategoryButton" bilgisiyle girilir. Sayfadaki elementler bir listeye alınır, listeden ürün seçilip rastgele tıklanır.
- "Süt & Kahvaltı" kategorisine girilir "milkAndBreakfastButton" bilgisiyle girilir. Sayfadaki elementler bir listeye alınır, listeden ürün seçilip rastgele tıklanır.
-* "getirLogo" elementinin görünür olduğunu kontrol eder.
-* "BasketButton" butonuna tıkla
-* sepetteki tüm ürünleri "basketIncraseButtons" ile bulduktan sonra adedini "3" tane yap
- "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir. "productCountList" bilgisiyle ürünün sayısı kadar tıklanır.
-* "1" tane ürün "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir. "productCountList" bilgisiyle ürünün sayısı kadar tıklanır.
