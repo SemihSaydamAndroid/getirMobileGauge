@@ -5,11 +5,14 @@ This test spec contains success Login , failure Login and Logout cases
 ## Case 1: Success Login
 Tags: Succes
 * "hello@getir.com" ve "hello" bilgileriyle login olunur.
-gi
+
 ## Case 1: Failure Login
 Tags: Failure
 * "wrongUsername" ve "xxxx" bilgileriyle başarısız login gerçekleştirilir ve toast mesajı kontrol edilir.
 
+## Case Extra: test fail durumunda rapor oluştuğunu görmek için hata alacak senaryo
+Tüm testlerin başarılı koşmasını istiyorsanız lütfen bu case'i yorum haline getiriniz
+* "fail@getir.com" ve "fail" bilgileriyle login olunur.
 
 ## Case 1: Logout
 Burada concept yapısının güzelliği ortaya çıkıyor. Başarılı login senaryosu ilk concept'ten direkt olarak alınır.
