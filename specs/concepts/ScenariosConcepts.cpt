@@ -27,15 +27,35 @@ Test case : Logout olma senaryosunun başarılı şekilde yapıldığı görül�
 # <category> kategorisine girilir <id> bilgisiyle girilir. Sayfadaki elementler bir listeye alınır, listeden ürün seçilip rastgele tıklanır.
 Test case : 3 kategoriden rastgele ürün seçip sepete eklenmelidir. Ardından ürünler sepetten silinmeli ve kontrol edilmelidir.
 Buradaki random ürün seçme kısmında swipe işlemi yapılarak görünen tüm ürünler bir listeye alınmıştır. Ardından listenin random bir elemanına tıklanmıştır.
-* <id> elementinin yazısının <category> olduğunu kontrol eder
-* <id> butonuna tıkla
-* "productNameList" listesindeki tüm elemanları almak için swipe et "productAddButtonList" listesindekiyle tıkla
-* "categoryDetailBackButton" butonuna tıkla
-* "getirLogo" elementinin görünür olduğunu kontrol eder.
+    * <id> elementinin yazısının <category> olduğunu kontrol eder
+    * <id> butonuna tıkla
+    * "productNameList" listesindeki tüm elemanları almak için swipe et "productAddButtonList" listesindekiyle tıkla
+    * "categoryDetailBackButton" butonuna tıkla
+    * "getirLogo" elementinin görünür olduğunu kontrol eder.
 
 
 # Sepete tıklanır ve içindeki her ürün silinir. Silindiği kontrol edilir.
+    * "BasketButton" butonuna tıkla
+    * "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir.
+    * "basketBackButton" butonuna tıkla
+    * "getirLogo" elementinin görünür olduğunu kontrol eder.
+
+# Sepetteki ürünlerin adedini <adet> yapar. Fiyatlarını hesaplar ve payment kısmına gidip kontrol eder. Payment içindeki kontrolleri yapar. Sepete geri dönüp ürünleri siler
+* "getirLogo" elementinin görünür olduğunu kontrol eder.
 * "BasketButton" butonuna tıkla
-* "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir.
+Sepetteki ürünlerin adetleri birer tane artırılacak
+kontrolleri sağlanacak
+* sepetteki tüm ürünleri "basketIncraseButtons" ile bulduktan sonra adedini <adet> tane yap
+* sepetteki tüm ürünlerin fiyatları "priceList" ile bulduktan "totalAmount" toplam fiyatla eşit olduğu kontrol edilir. Bu işlem yapılırken ürün sayıları "productCountList" bilgisiyle alınır.
+
+Ödeme sayfasına geçilecek, kontroller sağlanacak,
+* "totalAmount" sepet sayfasından ürünlerin değeri ile "paymentAmount" payment amount değeri karşılaştırılır. "paymentButton" butonuna tıklanarak sepetten ödeme adımına geçilir.
+* "amountTitle" elementinin yazısının "Amount" olduğunu kontrol eder
+* "paymentAdress" elementinin yazısının "Current Address" olduğunu kontrol eder
+* "paymentMethod" elementinin yazısının "Current Payment Method" olduğunu kontrol eder
+geri dönülecek sepetteki ürünler silinecek
+* "paymentBackButton" butonuna tıkla
+
+* <adet> tane ürün "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir. "productCountList" bilgisiyle ürünün sayısı kadar tıklanır.
 * "basketBackButton" butonuna tıkla
 * "getirLogo" elementinin görünür olduğunu kontrol eder.
