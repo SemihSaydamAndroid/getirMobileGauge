@@ -1,0 +1,41 @@
+# <username> ve <password> bilgileriyle login olunur.
+Test case : başarılı Login senaryosunu. Aşağıdaki adımlar yukarıdaki cümle ile kısaltılacaktır.
+    * "usernameArea" elementine <username> degeri yazılır Yazılabildiği kontrol edilir.
+    * "passwordArea" elementine <password> degeri yazılır Yazılabildiği kontrol edilir.
+    * "submitButton" butonuna tıkla
+    * "getirLogo" elementinin görünür olduğunu kontrol eder.
+    * Bu adımda rapora "Başarılı login senaryosu Başarılı olarak tamamlandı" yaz ve screenShot al
+
+
+# <username> ve <password> bilgileriyle başarısız login gerçekleştirilir ve toast mesajı kontrol edilir.
+Test case :  Başarısız login senaryosu ve başarısız login sonrası çıkan toast mesajı kontrolü. Aşağıdaki adımlar yukarıdaki cümle ile kısaltılacaktır.
+    * "usernameArea" elementine <username> degeri yazılır Yazılabildiği kontrol edilir.
+    * "passwordArea" elementine <password> degeri yazılır Yazılabildiği kontrol edilir.
+    * "submitButton" butonuna tıkla
+    * "FailureLoginToastMesg" elementinin yazısının "There is an error please review your information and try again" olduğunu kontrol eder
+    * Bu adımda rapora "Başarısız login senaryosu Başarılı olarak tamamlandı" yaz ve screenShot al
+
+
+# Logout olma işlemi yapılır. Sayfa geçişleri kontrol edilir.
+Test case : Logout olma senaryosunun başarılı şekilde yapıldığı görülür. Burada login olma adımları başarılı login adımından alınacaktır. Aşağıdaki adımlar yukarıdaki cümle ile kısaltılacaktır.
+    * "ProfileButton" butonuna tıkla
+    * "LogOutButton" elementinin yazısının "Log out" olduğunu kontrol eder
+    * "LogOutButton" butonuna tıkla
+    * "submitButton" elementinin yazısının "Submit" olduğunu kontrol eder
+    * Bu adımda rapora "Logout olma senaryosu Başarılı olarak tamamlandı" yaz ve screenShot al
+
+# <category> kategorisine girilir <id> bilgisiyle girilir. Sayfadaki elementler bir listeye alınır, listeden ürün seçilip rastgele tıklanır.
+Test case : 3 kategoriden rastgele ürün seçip sepete eklenmelidir. Ardından ürünler sepetten silinmeli ve kontrol edilmelidir.
+Buradaki random ürün seçme kısmında swipe işlemi yapılarak görünen tüm ürünler bir listeye alınmıştır. Ardından listenin random bir elemanına tıklanmıştır.
+* <id> elementinin yazısının <category> olduğunu kontrol eder
+* <id> butonuna tıkla
+* "productNameList" listesindeki tüm elemanları almak için swipe et "productAddButtonList" listesindekiyle tıkla
+* "categoryDetailBackButton" butonuna tıkla
+* "getirLogo" elementinin görünür olduğunu kontrol eder.
+
+
+# Sepete tıklanır ve içindeki her ürün silinir. Silindiği kontrol edilir.
+* "BasketButton" butonuna tıkla
+* "basketNoResultText" elementinin yazısı "There is no result" görünene kadar sepetteki tüm ürünler "basketNegativeButtonList" elementiyle silinir.
+* "basketBackButton" butonuna tıkla
+* "getirLogo" elementinin görünür olduğunu kontrol eder.

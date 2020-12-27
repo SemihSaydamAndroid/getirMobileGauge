@@ -1,0 +1,173 @@
+[
+
+  {
+    "key": "usernameArea",
+    "androidValue": "com.getir.casestudy.dev:id/usernameEditText",
+    "androidType": "id"
+  },
+  {
+    "key": "passwordArea",
+    "androidValue": "com.getir.casestudy.dev:id/passwordEditText",
+    "androidType": "id"
+  },
+  {
+    "key": "submitButton",
+    "androidValue": "com.getir.casestudy.dev:id/loginButton",
+    "androidType": "id"
+  },
+  {
+  "key": "getirLogo",
+  "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_getirLogoImageView",
+  "androidType": "id"
+  },
+  {
+  "key": "BasketButton",
+  "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_getir10GABasketButton",
+  "androidType": "id"
+  },
+  {
+    "key": "ProfileButton",
+    "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_leftIconImageView",
+    "androidType": "id"
+  },
+  {
+    "key": "CategoryList",
+    "androidValue": "com.getir.casestudy.dev:id/mainRecyclerView",
+    "androidType": "id"
+  },
+  {
+  "key": "FailureLoginToastMesg",
+  "androidValue": "/hierarchy/android.widget.Toast",
+  "androidType": "xpath"
+  },
+  {
+    "key": "LogOutButton",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[2]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "MyAdressButton",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout[1]/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "MyAdressButton",
+    "androidValue": "",
+    "androidType": "xpath"
+  },
+  {
+    "key": "foodCategoryButton",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[4]/android.widget.FrameLayout/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "milkAndBreakfastButton",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[7]/android.widget.FrameLayout/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "BabyButton",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[11]/android.widget.FrameLayout/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productList",
+    "androidValue": "com.getir.casestudy.dev:id/productrecyclerView",
+    "androidType": "id"
+  },
+  {
+    "key": "productList2",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productNameList",
+    "androidValue": "com.getir.casestudy.dev:id/tvTitle",
+    "androidType": "id"
+  },{
+    "key": "productAddButtonList",
+    "androidValue": "com.getir.casestudy.dev:id/btnAdd",
+    "androidType": "id"
+  },
+  {
+    "key": "categoryDetailBackButton",
+    "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_leftIconImageView",
+    "androidType": "id"
+  },
+  {
+    "key": "basketNegativeButtonList",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ImageView[1]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "basketNoResultText",
+    "androidValue": "com.getir.casestudy.dev:id/tvTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "basketBackButton",
+    "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_leftIconImageView",
+    "androidType": "id"
+  },
+  {
+    "key": "basketIncraseButtons",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ImageView[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "totalAmount",
+    "androidValue": "com.getir.casestudy.dev:id/tvTotalTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "priceList",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.TextView[2]",
+    "androidType": "xpath"
+  },
+  {
+    "key": "productCountList",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+  "key": "paymentButton",
+  "androidValue": "com.getir.casestudy.dev:id/btnCheckout",
+  "androidType": "id"
+  },
+  {
+    "key": "amountTitle",
+    "androidValue": "com.getir.casestudy.dev:id/tvAmountTitle",
+    "androidType": "id"
+  },
+  {
+    "key": "paymentAmount",
+    "androidValue": "com.getir.casestudy.dev:id/tvAmount",
+    "androidType": "id"
+  },
+  {
+    "key": "paymentAdress",
+    "androidValue": "com.getir.casestudy.dev:id/tvAddress",
+    "androidType": "id"
+  },
+  {
+    "key": "paymentMethod",
+    "androidValue": "com.getir.casestudy.dev:id/tvPaymentMethod",
+    "androidType": "id"
+  },
+  {
+    "key": "paymentBackButton",
+    "androidValue": "com.getir.casestudy.dev:id/ga_toolbar_leftIconImageView",
+    "androidType": "id"
+  },
+  {
+    "key": "productCount",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.TextView",
+    "androidType": "xpath"
+  },
+  {
+    "key": "basketNegativeButtonListDeneme",
+    "androidValue": "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.ImageView",
+    "androidType": "xpath"
+  }
+]
+
